@@ -1,0 +1,13 @@
+{
+  "name": "pi-hound-mode",
+  "version": "0.1.0",
+  "description": "🐶 Hound Mode for Pi: audit-ready incident investigation records",
+  "keywords": ["pi-package", "pi-extension", "incident-response", "investigation"],
+  "license": "MIT",
+  "scripts": {
+    "test": "bun extensions/hound/utils.test.ts"
+  },
+  "pi": {
+    "extensions": ["./extensions/hound/index.ts"]
+  }
+}
